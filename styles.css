@@ -1,9 +1,9 @@
 @font-face {
     font-family: BYekan;
-    src: url(fonts/DimaYekanOutline.ttf);
+    src: url(fonts/BYekan+_0.ttf);
 }
 body{
    text-align:right;
    direction: rtl;
-   font-family: Tahoma BYekan;
+   font-family: BYekan,Tahoma;
 }
