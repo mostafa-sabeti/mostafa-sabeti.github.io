@@ -1,4 +1,9 @@
+@font-face {
+    font-family: BYekan;
+    src: url(./fonts/BYekan+_Bold.ttf);
+}
 body{
    text-align:right;
    direction: rtl;
+   font-family: BYekan;
 }
