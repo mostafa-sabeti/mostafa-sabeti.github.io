@@ -14,5 +14,9 @@ body{
    text-align:right;
    direction: rtl;
    font-family: BYekan,Tahoma;
-   background: radial-gradient(circle, var(--primary-second-color), var(--primary-color))
+}
+
+body>.container{
+    background: radial-gradient(circle, var(--primary-second-color), var(--primary-color));
+    min-height: 100vh;
 }
