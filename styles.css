@@ -16,7 +16,7 @@ body{
    font-family: BYekan,Tahoma;
 }
 
-body>.container{
+body>.container-fluid{
     background: radial-gradient(ellipse at top center, var(--primary-second-color), var(--primary-color));
     min-height: 100vh;
 }
