@@ -1,9 +1,18 @@
+:root{
+    --primary-color: #1E293B;
+    --primary-second-color: #0F172A;
+    --secondary-color: #F8FAFC;
+    --neutral-color: #111827;
+    --accent-color: #22C55E;
+}
 @font-face {
     font-family: BYekan;
     src: url(fonts/BYekan+_0.ttf);
 }
+
 body{
    text-align:right;
    direction: rtl;
    font-family: BYekan,Tahoma;
+   background: radial-gradient(circle, var(--primary-second-color), var(--primary-color))
 }
