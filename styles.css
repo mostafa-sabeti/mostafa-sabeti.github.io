@@ -1,6 +1,6 @@
 :root{
     --primary-color: #1E293B;
-    --primary-second-color: #0F172A;
+    --primary-second-color: #5585ac;
     --secondary-color: #F8FAFC;
     --neutral-color: #111827;
     --accent-color: #22C55E;
@@ -17,6 +17,6 @@ body{
 }
 
 body>.container{
-    background: radial-gradient(circle, var(--primary-second-color), var(--primary-color));
+    background: radial-gradient(ellipse at top center, var(--primary-second-color), var(--primary-color));
     min-height: 100vh;
 }
